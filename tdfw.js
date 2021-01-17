@@ -65,8 +65,8 @@
 		//    after the API code downloads.
 		function onYouTubeIframeAPIReady() {
 			player = new YT.Player('tdfw', {
-				height: '200',
-				width: '305',
+				height: '1',
+				width: '1',
 				videoId: 'HMUDVMiITOU',
 				events: {
 					'onReady': onPlayerReady,
