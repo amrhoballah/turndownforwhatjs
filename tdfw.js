@@ -67,7 +67,6 @@
 			player = new YT.Player('tdfw', {
 				height: '1',
 				width: '1',
-				display: 'none',
 				videoId: 'HMUDVMiITOU',
 				events: {
 					'onReady': onPlayerReady,
